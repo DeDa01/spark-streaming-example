@@ -6,3 +6,12 @@ lazy val root = (project in file("."))
   .settings(
     name := "spark-streaming-example"
   )
+
+// https://mvnrepository.com/artifact/org.apache.spark/spark-core
+libraryDependencies += "org.apache.spark" %% "spark-core" % "3.2.1"
+
+// https://mvnrepository.com/artifact/org.apache.spark/spark-sql
+libraryDependencies += "org.apache.spark" %% "spark-sql" % "3.2.1"
+
+// https://mvnrepository.com/artifact/org.apache.spark/spark-streaming
+libraryDependencies += "org.apache.spark" %% "spark-streaming" % "3.2.1"
